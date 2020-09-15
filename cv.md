@@ -22,3 +22,17 @@ I learn quickly, I am patient and responsible. I like try and learn something ne
 * HTML
 * CSS
 * some Javascript
+
+## *Code examples*
+You can see some examples of code on my github account. Here are some links:
+* [Simple HTML-coding](https://github.com/nin3439/brotask)
+* [One more simple HTML-coding](https://github.com/nin3439/brotask2)
+
+## *Education*
+Belarusian State Medical University, Pharmaceutical Faculty (2011 - 2016)
+
+I read [learn.javascript.ru](https://learn.javascript.ru/) and regularly return to it. I also read various web development information on the Internet.
+
+## *English*
+**B1**
+I practice my English with my baby.
