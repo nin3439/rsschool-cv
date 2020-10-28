@@ -27,7 +27,7 @@ I learn quickly, I am patient and responsible. I like try and learn something ne
 You can see some examples of code on my github account. Here are some links:
 * [Simple HTML-coding](https://github.com/nin3439/brotask2);
 * [Webdev](https://rolling-scopes-school.github.io/nin3439-JS2020Q3/webdev) non-responsive site about web development;
-* [Shelter](https://rolling-scopes-school.github.io/nin3439-JS2020Q3/shelter/pages/main/main.html) adaptive site about shelter for; pets 
+* [Shelter](https://rolling-scopes-school.github.io/nin3439-JS2020Q3/shelter/pages/main/main.html) adaptive site about shelter for pets; 
 * [Momentum](https://rolling-scopes-school.github.io/nin3439-JS2020Q3/momentum) page with a personal dashboard featuring to-do, weather, and inspiration;
 * [Calculator](https://rolling-scopes-school.github.io/nin3439-JS2020Q3/calculator);
 
