@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,25 +12,28 @@
   <div class="sheet">
     <header>
         <img class="my-photo" src="./assets/photo.jpg"  alt="PHOTO">
-        <h1 class="title"> CV Nina Viter</h1>
+        <div class="header-wrapper">
+            <h1 class="title"> CV Nina Viter</h1>
+            <nav>
+                <ul class="navigation">
+                    <li class="navigation-item"><a class="navigation-link" href="#about-me">About me </a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="#summary">Summary</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="#skills">Skills</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="#examples">Code examples</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="#education">Education</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="#english">English level</a></li>
+                </ul>
+            </nav>
+        </div>
+        
     </header>
-    <nav>
-        <ul class="navigation">
-            <li><a class="navigation-item" href="#about-me">About me </a></li>
-            <li><a class="navigation-item" href="#summary">Summary</a></li>
-            <li><a class="navigation-item" href="#skills">Skills</a></li>
-            <li><a class="navigation-item" href="#examples">Code examples</a></li>
-            <li><a class="navigation-item" href="#education">Education</a></li>
-            <li><a class="navigation-item" href="#english">English level</a></li>
-        </ul>
-    </nav>
+    
     <main>
             <section class="main-content-part" id="about-me">
                 <div class="main-about">
                   <div class="aboutMe-block">
                       <h3 class="headline">Personal information</h3>
                       <ul class="main-content-part-list">
-                          <li>Name: <b>Nina Viter</b></li>
                           <li>Date of birth: <b>26.01.1994</b></li>
                           <li>Location: <b>Republic of Belarus, Minsk</b></li>
                       </ul>
@@ -39,9 +41,9 @@
                   <div class="aboutMe-block">
                       <h3 class="headline">Contact information</h3>
                       <ul>
-                          <li>E-mail: <b>ninok33_94@mail.ru</b></li>
-                          <li>Phone: <b>+375 29 261 65 12</b></li>
-                          <li>Telegram: <b>@nin3439</b></li>
+                          <li>E-mail: <a class="link" href="mailto:@ninok33_94@mail.ru"><b>ninok33_94@mail.ru</b></a></li>
+                          <li>Phone: <a class="link" href="tel:+375 29 261 65 12"><b>+375 29 261 65 12</b></a></li>
+                          <li>Telegram: <a class="link" href="tg://resolve?domain=<@nin3439>"><b>@nin3439</b></a> </li>
                       </ul>
                   </div>
                 </div>
@@ -49,38 +51,42 @@
             <section class="main-content-part" id='summary'>
                 <h3 class="headline">Summary</h3>
                     <p class="paragraph">Hello! Thank you for visiting my page. </p>
-                    <p class="paragraph">I’m on maternity leave now, my kid’s already in kindergarten and I have a lot of free time. I <b>can</b> and I <b>WANT</b> to change my specialty. Before that I used to work as a pharmacist. I have extensive experience in communicating with customers and resolving different conflicts. Now I’m just starting to learn programming. Therefore, I need a mentor to help me improve the quality of my knowledge of Javascript and give me some great advice.</p>
+                    <p class="paragraph">I’m on maternity leave now, my kid’s already in kindergarten. Before that I used to work as a pharmacist. I have extensive experience in communicating with customers and resolving different conflicts. But I <b>WANT</b> and I <b>CAN</b> to change my specialty. I’ve already come a long way in studying JS.  And I’m ready to move on and open to new knowledge. </p>
                     <p class="paragraph">I learn quickly, I am patient and responsible. I like try and learn something new. I am ready to work hard to achieve my goals. I am polite, sociable and I like to help people.</p>
 
               </section>
               <section class="main-content-part" id='skills'>
                 <h3 class="headline">Skills</h3>
-                <ul>
-                    <li class="list-style">HTML</li>
-                    <li class="list-style">CSS</li>
-                    <li class="list-style">some Javascript</li>
+                <ul class="list">
+                    <li class="list-item-style">HTML</li>
+                    <li class="list-item-style">CSS/SCSS</li>
+                    <li class="list-item-style">Javascript (ES5/ES6)</li>
+                    <li class="list-item-style">VS Code</li>
+                    <li class="list-item-style">Git</li>
+                    <li class="list-item-style">some React</li>
+                
                 </ul>
               </section>
               <section class="main-content-part" id='examples'>
                 <h3 class="headline">Сode examples</h3>
                 <p class="paragraph">You can see some examples of code on my github account. Here are some links:</p>
                 <ul>
-                    <li class="list-style"><a class="link" href="https://github.com/nin3439/brotask2">Simple HTML-coding</a>;</li>
-                    <li class="list-style"><a class="link" href="https://rolling-scopes-school.github.io/nin3439-JS2020Q3/webdev">WebDev </a> non-responsive site about web development;</li>
-                    <li class="list-style"><a class="link" href="https://rolling-scopes-school.github.io/nin3439-JS2020Q3/shelter/pages/main/main.html">Shelter </a> adaptive site about shelter for pets;</li>
-                    <li class="list-style"><a class="link" href="https://rolling-scopes-school.github.io/nin3439-JS2020Q3/momentum">Momentum </a> page with a personal dashboard featuring to-do, weather, and inspiration;</li>
-                    <li class="list-style"><a class="link" href="https://rolling-scopes-school.github.io/nin3439-JS2020Q3/calculator">Calculator</a>;</li>
+                    <li class="list-item-style"><a class="link" href="https://nin3439-english-for-kids.netlify.app/">English for kids</a> — a simple game for learning English;</li>
+                    <li class="list-item-style"><a class="link" href="https://rolling-scopes-school.github.io/nin3439-JS2020Q3/momentum">Momentum </a> — page with a personal dashboard featuring to-do, weather, and inspiration;</li>
+                    <li class="list-item-style"><a class="link" href="https://rolling-scopes-school.github.io/nin3439-JS2020Q3/virtual-keyboard/">Virtual Keyboard</a>;</li>
+                    <li class="list-item-style"><a class="link" href="https://rolling-scopes-school.github.io/nin3439-JS2020Q3/calculator">Calculator</a>;</li>
+                    
                 </ul>
               </section>
               <section class="main-content-part" id='education'>
                 <h3 class="headline">Education</h3>
                 <p class="paragraph">Belarusian State Medical University, Pharmaceutical Faculty (2011 - 2016).</p>
-                <p class="paragraph">I read <a class="link" href="https://learn.javascript.ru/">learn.javascript.ru</a> and regularly return to it. I also read various web development information on the Internet.</p>
-            </section>
+                <p class="paragragh">I almost finished course <a class="link" href='https://rs.school/js/'>'JavaScript/Front-end'</a> from RS School, which lasted 6 months. I’m graduating on February 9, 2021. Now I’m working with my team on the last project and then I get a certificate of completion.</p>
+              </section>
             <section class="main-content-part" id='english'>
-                <h3 class="headline">English</h3>
+                <h3 class="headline">English level</h3>
                 <p class="paragraph"><b>B1</b></p>
-                <p class="paragraph">I practice my English with my baby.</p>
+                <p class="paragraph">I studied English at school with a tutor, at university, I took courses or even I practice English with my baby. I read and understand English well,  I don’t speak very well, but I think it’s a matter of practice.</p>
             </section>
     </main>
   </div>
